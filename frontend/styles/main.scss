@@ -1,0 +1,295 @@
+// fonts
+$playfair: "Playfair Display", serif;
+$assistant: "Assistant", sans-serif;
+$open-sans: "Open Sans", sans-serif;
+
+// colors
+$primary-colors: #fd5056;
+$secondary-colors: #4141a5;
+$text-colors: #4141a5;
+$gray-text: #8a7c7c;
+
+// global styles
+body {
+  font-family: $open-sans !important;
+  font-size: 20px;
+}
+
+.heading-text {
+  color: $text-colors;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: $playfair;
+}
+.sub-heading-text {
+  color: $text-colors;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: $playfair;
+}
+.p-heading {
+  color: $text-colors;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.primary-btn {
+  background-color: $primary-colors;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  padding: 7px 37px 12px;
+  font-size: 22px;
+  &:hover {
+    background-color: #df6f73;
+    color: #fff;
+  }
+}
+
+.secondary-btn {
+  background-color: $secondary-colors;
+  font-size: 20px;
+  color: #ddd2d2;
+  font-weight: 700;
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: #7878ee;
+    color: #ddd2d2;
+  }
+}
+
+// navbar
+#mainNav {
+  padding-top: 0;
+  min-height: 70px;
+  .container {
+    background-color: #fff;
+    position: relative;
+
+    .navbar-toggler {
+      color: $gray-text;
+      border: 1px solid $gray-text;
+    }
+    .navbar-nav {
+      .nav-link {
+        font-weight: 500;
+        color: $text-colors;
+        font-size: 22px;
+
+        &.active {
+          font-weight: bold;
+        }
+        &:hover {
+          color: #7878ee;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+// header
+header.heading {
+  min-height: 650px;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/image/background-header.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+
+  .big-heading {
+    color: #fff;
+    line-height: 4rem;
+    margin-bottom: 25px;
+    padding: 10px;
+  }
+  .p-heading {
+    color: #fff;
+  }
+}
+
+// section networks
+#section-networks {
+  margin-top: 70px;
+  margin-bottom: 40px;
+
+  .container {
+    .img-partners {
+      max-width: 100%;
+    }
+  }
+}
+.section-popular {
+  margin-top: 40px;
+  .popular-heading {
+    margin-bottom: 80px;
+  }
+}
+// section-popular-cards
+#section-popular-content {
+  .card-travel {
+    min-height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 40px;
+
+    .travel-country {
+      color: #fff;
+      font-size: 18px;
+    }
+    .travel-location {
+      color: #fff;
+      font-size: 26px;
+    }
+    .travel-btn {
+      .btn-primary {
+        background-color: $primary-colors;
+        color: #fff;
+        width: 180px;
+        font-size: 22px;
+        border: none;
+
+        &:hover {
+          background-color: #df6f73;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+// section testimonial
+#section-testimonial {
+  margin: 80px 0;
+
+  .testimonial-cards {
+    .testimonial-card {
+      min-height: 532px;
+      padding: 50px 45px 35px;
+
+      .card-content {
+        .testimonial-name {
+          font-size: 22px;
+          font-weight: 600;
+          color: $text-colors;
+          margin: 20px 0;
+        }
+        .trip-to-tittle {
+          margin-top: 85px;
+        }
+      }
+    }
+  }
+
+  .testi-card {
+    margin-top: 38px;
+  }
+
+  .get-started-btn {
+    margin-top: 70px;
+
+    .need-help-btn {
+      background-color: #e6e2de;
+
+      &:hover {
+        color: black;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+// footer section
+#section-footer {
+  margin-top: 20px;
+  footer {
+    border-top: 1px solid #c5bebe;
+    padding: 20px 0 0;
+  }
+}
+// end of footer section
+
+// details page
+.bg-up {
+  min-height: 300px;
+  background-color: #e4e6eb;
+}
+
+#section-details {
+  margin-top: -140px;
+  .card-travel-detail {
+    padding: 0;
+    .card-detail {
+      border-radius: 12px;
+      padding: 35px 35px 25px;
+
+      .detail-header {
+        font-family: $playfair;
+        font-size: 26px;
+        color: $text-colors;
+        font-weight: bold;
+      }
+      .detail-sub-header {
+        font-family: $open-sans;
+        font-size: 18px;
+        font-weight: lighter;
+        color: $gray-text;
+      }
+      .explain-travel {
+        .explain-heading {
+          font-family: $playfair;
+          font-size: 22px;
+          color: $text-colors;
+          font-weight: 600;
+        }
+        .explain-paragraph {
+          font-size: 18px;
+          font-weight: 400;
+          color: #c5bebe;
+          line-height: 1.8rem;
+        }
+      }
+
+      .event-details {
+        h5 {
+          font-size: 18px;
+          font-weight: 600;
+          color: $text-colors;
+        }
+        p {
+          font-size: 14px;
+          color: #c5bebe;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+// end of details page
+
+// media query
+@media only screen and (max-width: 980px) {
+  #section-networks {
+    .text-heading {
+      margin-top: -20px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+
+  #section-popular {
+    .popular-heading {
+      margin: 35px 0;
+      padding-top: 15px;
+    }
+  }
+}

@@ -1,0 +1,273 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 20px;
+}
+
+.heading-text {
+  color: #4141a5;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+
+.sub-heading-text {
+  color: #4141a5;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+
+.p-heading {
+  color: #4141a5;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.primary-btn {
+  background-color: #fd5056;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  padding: 7px 37px 12px;
+  font-size: 22px;
+}
+
+.primary-btn:hover {
+  background-color: #df6f73;
+  color: #fff;
+}
+
+.secondary-btn {
+  background-color: #4141a5;
+  font-size: 20px;
+  color: #ddd2d2;
+  font-weight: 700;
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.secondary-btn:hover {
+  background-color: #7878ee;
+  color: #ddd2d2;
+}
+
+#mainNav {
+  padding-top: 0;
+  min-height: 70px;
+}
+
+#mainNav .container {
+  background-color: #fff;
+  position: relative;
+}
+
+#mainNav .container .navbar-toggler {
+  color: #8a7c7c;
+  border: 1px solid #8a7c7c;
+}
+
+#mainNav .container .navbar-nav .nav-link {
+  font-weight: 500;
+  color: #4141a5;
+  font-size: 22px;
+}
+
+#mainNav .container .navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+#mainNav .container .navbar-nav .nav-link:hover {
+  color: #7878ee;
+  font-size: 22px;
+}
+
+header.heading {
+  min-height: 650px;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/image/background-header.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.heading .big-heading {
+  color: #fff;
+  line-height: 4rem;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+header.heading .p-heading {
+  color: #fff;
+}
+
+#section-networks {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+#section-networks .container .img-partners {
+  max-width: 100%;
+}
+
+.section-popular {
+  margin-top: 40px;
+}
+
+.section-popular .popular-heading {
+  margin-bottom: 80px;
+}
+
+#section-popular-content .card-travel {
+  min-height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px 40px;
+}
+
+#section-popular-content .card-travel .travel-country {
+  color: #fff;
+  font-size: 18px;
+}
+
+#section-popular-content .card-travel .travel-location {
+  color: #fff;
+  font-size: 26px;
+}
+
+#section-popular-content .card-travel .travel-btn .btn-primary {
+  background-color: #fd5056;
+  color: #fff;
+  width: 180px;
+  font-size: 22px;
+  border: none;
+}
+
+#section-popular-content .card-travel .travel-btn .btn-primary:hover {
+  background-color: #df6f73;
+  color: #fff;
+}
+
+#section-testimonial {
+  margin: 80px 0;
+}
+
+#section-testimonial .testimonial-cards .testimonial-card {
+  min-height: 532px;
+  padding: 50px 45px 35px;
+}
+
+#section-testimonial .testimonial-cards .testimonial-card .card-content .testimonial-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #4141a5;
+  margin: 20px 0;
+}
+
+#section-testimonial .testimonial-cards .testimonial-card .card-content .trip-to-tittle {
+  margin-top: 85px;
+}
+
+#section-testimonial .testi-card {
+  margin-top: 38px;
+}
+
+#section-testimonial .get-started-btn {
+  margin-top: 70px;
+}
+
+#section-testimonial .get-started-btn .need-help-btn {
+  background-color: #e6e2de;
+}
+
+#section-testimonial .get-started-btn .need-help-btn:hover {
+  color: black;
+  background-color: #fff;
+}
+
+#section-footer {
+  margin-top: 20px;
+}
+
+#section-footer footer {
+  border-top: 1px solid #c5bebe;
+  padding: 20px 0 0;
+}
+
+.bg-up {
+  min-height: 300px;
+  background-color: #e4e6eb;
+}
+
+#section-details {
+  margin-top: -140px;
+}
+
+#section-details .card-travel-detail {
+  padding: 0;
+}
+
+#section-details .card-travel-detail .card-detail {
+  border-radius: 12px;
+  padding: 35px 35px 25px;
+}
+
+#section-details .card-travel-detail .card-detail .detail-header {
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  color: #4141a5;
+  font-weight: bold;
+}
+
+#section-details .card-travel-detail .card-detail .detail-sub-header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #8a7c7c;
+}
+
+#section-details .card-travel-detail .card-detail .explain-travel .explain-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  color: #4141a5;
+  font-weight: 600;
+}
+
+#section-details .card-travel-detail .card-detail .explain-travel .explain-paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  color: #c5bebe;
+  line-height: 1.8rem;
+}
+
+#section-details .card-travel-detail .card-detail .event-details h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4141a5;
+}
+
+#section-details .card-travel-detail .card-detail .event-details p {
+  font-size: 14px;
+  color: #c5bebe;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 980px) {
+  #section-networks .text-heading {
+    margin-top: -20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #section-popular .popular-heading {
+    margin: 35px 0;
+    padding-top: 15px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
