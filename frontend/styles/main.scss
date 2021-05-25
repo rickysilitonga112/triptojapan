@@ -213,6 +213,7 @@ header.heading {
   footer {
     border-top: 1px solid #c5bebe;
     padding: 20px 0 0;
+    font-size: 18px;
   }
 }
 // end of footer section
@@ -278,6 +279,7 @@ header.heading {
 
 // media query
 @media only screen and (max-width: 980px) {
+  // section networks
   #section-networks {
     .text-heading {
       margin-top: -20px;
@@ -286,10 +288,117 @@ header.heading {
     }
   }
 
+  // section popular
   #section-popular {
     .popular-heading {
       margin: 35px 0;
       padding-top: 15px;
+    }
+  }
+
+  // section testimonial
+  #section-testimonial {
+    .container {
+      .testi-card {
+        margin-top: 20px;
+
+        .testimonial-card {
+          width: 80%;
+          margin: 10px auto;
+        }
+        .get-started-btn {
+          margin-top: 50px;
+          .need-help-btn {
+            display: none;
+          }
+          .primary-btn {
+            margin-top: -20px;
+          }
+          .btn-sm-need-help {
+            display: block !important;
+          }
+        }
+      }
+    }
+  }
+
+  // section-footer
+  #section-footer {
+    .footer {
+      font-size: 18px;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 18px;
+  }
+
+  // main nav
+  #mainNav {
+    margin-top: -8px;
+    .navbar-brand {
+      width: 60%;
+      img {
+        width: 80%;
+      }
+    }
+    .nav-link {
+      font-size: 18px !important;
+    }
+  }
+
+  .heading {
+    max-height: 300px !important;
+    padding: 120px 0 !important;
+  }
+
+  #section-networks {
+    .text-heading {
+      margin-top: -20px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+
+  // section popular
+  #section-popular {
+    .popular-heading {
+      margin: 35px 0;
+      padding-top: 15px;
+    }
+  }
+
+  // section testimonial
+  #section-testimonial {
+    .container {
+      .testi-card {
+        margin-top: 20px;
+
+        .testimonial-card {
+          width: 80%;
+          margin: 10px auto;
+        }
+        .get-started-btn {
+          margin-top: 50px;
+          .need-help-btn {
+            display: none;
+          }
+          .primary-btn {
+            margin-top: -20px;
+          }
+          .btn-sm-need-help {
+            display: block !important;
+          }
+        }
+      }
+    }
+  }
+
+  // section-footer
+  #section-footer {
+    .footer {
+      font-size: 12px;
     }
   }
 }

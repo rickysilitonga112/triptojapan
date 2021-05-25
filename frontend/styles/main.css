@@ -199,6 +199,7 @@ header.heading .p-heading {
 #section-footer footer {
   border-top: 1px solid #c5bebe;
   padding: 20px 0 0;
+  font-size: 18px;
 }
 
 .bg-up {
@@ -268,6 +269,81 @@ header.heading .p-heading {
   #section-popular .popular-heading {
     margin: 35px 0;
     padding-top: 15px;
+  }
+  #section-testimonial .container .testi-card {
+    margin-top: 20px;
+  }
+  #section-testimonial .container .testi-card .testimonial-card {
+    width: 80%;
+    margin: 10px auto;
+  }
+  #section-testimonial .container .testi-card .get-started-btn {
+    margin-top: 50px;
+  }
+  #section-testimonial .container .testi-card .get-started-btn .need-help-btn {
+    display: none;
+  }
+  #section-testimonial .container .testi-card .get-started-btn .primary-btn {
+    margin-top: -20px;
+  }
+  #section-testimonial .container .testi-card .get-started-btn .btn-sm-need-help {
+    display: block !important;
+  }
+  #section-footer .footer {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 18px;
+  }
+  #mainNav {
+    margin-top: -8px;
+  }
+  #mainNav .navbar-brand {
+    width: 60%;
+  }
+  #mainNav .navbar-brand img {
+    width: 80%;
+  }
+  #mainNav .nav-link {
+    font-size: 18px !important;
+  }
+  .heading {
+    max-height: 300px !important;
+    padding: 120px 0 !important;
+  }
+  #section-networks .text-heading {
+    margin-top: -20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #section-popular .popular-heading {
+    margin: 35px 0;
+    padding-top: 15px;
+  }
+  #section-testimonial .container .testi-card {
+    margin-top: 20px;
+  }
+  #section-testimonial .container .testi-card .testimonial-card {
+    width: 80%;
+    margin: 10px auto;
+  }
+  #section-testimonial .container .testi-card .get-started-btn {
+    margin-top: 50px;
+  }
+  #section-testimonial .container .testi-card .get-started-btn .need-help-btn {
+    display: none;
+  }
+  #section-testimonial .container .testi-card .get-started-btn .primary-btn {
+    margin-top: -20px;
+  }
+  #section-testimonial .container .testi-card .get-started-btn .btn-sm-need-help {
+    display: block !important;
+  }
+  #section-footer .footer {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=main.css.map */
