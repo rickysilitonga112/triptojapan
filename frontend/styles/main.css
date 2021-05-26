@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif !important;
   font-size: 20px;
+  min-height: 1vh;
 }
 
 .heading-text {
@@ -234,6 +235,14 @@ header.heading .p-heading {
   padding: 35px 35px 25px;
 }
 
+#section-details .card-travel-detail .card-detail .gallery .img-container .xzoom {
+  max-width: 100%;
+}
+
+#section-details .card-travel-detail .card-detail .gallery .zoom-prev {
+  padding-left: 8px;
+}
+
 #section-details .card-travel-detail .card-detail .detail-header {
   font-family: "Playfair Display", serif;
   font-size: 26px;
@@ -272,6 +281,48 @@ header.heading .p-heading {
   font-size: 14px;
   color: #c5bebe;
   font-weight: 400;
+}
+
+#section-details .card-members-are-going {
+  border-radius: 12px;
+}
+
+#section-details .card-members-are-going .members-are-going .member-header {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#section-details .card-members-are-going .members-are-going .trip-info {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#section-details .card-members-are-going .members-are-going .table-trip-info td {
+  text-align: right;
+  padding-left: 2.5rem;
+}
+
+#section-details .card-members-are-going .members-are-going .table-trip-info {
+  line-height: 40px;
+}
+
+#section-details .card-members-are-going .members-are-going .table-trip-info th {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#section-details .card-members-are-going .members-are-going .table-trip-info td {
+  font-size: 18px;
+  font-weight: 300;
+  color: #8a7c7c;
+}
+
+#section-details .card-members-are-going .btn-join-now {
+  background-color: #fd5056;
+  color: #fff;
+  height: 45px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
 
 @media only screen and (max-width: 980px) {
@@ -354,8 +405,23 @@ header.heading .p-heading {
     display: block;
     text-decoration: underline;
   }
+  #section-details .container .card-travel-detail {
+    margin-top: -50px;
+  }
+  #section-details .container .card-travel-detail .gallery .xzoom {
+    display: none;
+  }
+  #section-details .container .card-travel-detail .xzoom-gallery {
+    width: 100%;
+  }
+  #section-details .container .card-members {
+    padding: 0;
+  }
+  #section-details .container .card-members .card-members-are-going {
+    margin-top: 20px;
+  }
   #section-footer .footer {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=main.css.map */

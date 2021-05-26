@@ -13,6 +13,7 @@ $gray-text: #8a7c7c;
 body {
   font-family: $open-sans !important;
   font-size: 20px;
+  min-height: 1vh;
 }
 
 .heading-text {
@@ -244,6 +245,18 @@ header.heading {
       border-radius: 12px;
       padding: 35px 35px 25px;
 
+      .gallery {
+        .img-container {
+          .xzoom {
+            max-width: 100%;
+          }
+        }
+
+        .zoom-prev {
+          padding-left: 8px;
+        }
+      }
+
       .detail-header {
         font-family: $playfair;
         font-size: 26px;
@@ -283,6 +296,45 @@ header.heading {
           font-weight: 400;
         }
       }
+    }
+  }
+
+  .card-members-are-going {
+    border-radius: 12px;
+    .members-are-going {
+      .member-header {
+        font-size: 22px;
+        font-weight: 500;
+      }
+      .trip-info {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .table-trip-info {
+        td {
+          text-align: right;
+          padding-left: 2.5rem;
+        }
+      }
+      .table-trip-info {
+        line-height: 40px;
+        th {
+          font-size: 18px;
+          font-weight: 300;
+        }
+        td {
+          font-size: 18px;
+          font-weight: 300;
+          color: $gray-text;
+        }
+      }
+    }
+    .btn-join-now {
+      background-color: $primary-colors;
+      color: #fff;
+      height: 45px;
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
     }
   }
 }
@@ -406,10 +458,34 @@ header.heading {
     }
   }
 
+  // details page
+  #section-details {
+    .container {
+      .card-travel-detail {
+        margin-top: -50px;
+        .gallery {
+          .xzoom {
+            display: none;
+          }
+        }
+
+        .xzoom-gallery {
+          width: 100%;
+        }
+      }
+      .card-members {
+        padding: 0;
+        .card-members-are-going {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
   // section-footer
   #section-footer {
     .footer {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 }

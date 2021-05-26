@@ -24,6 +24,9 @@
       rel="stylesheet"
     />
 
+    <!-- librarie xzoom -->
+    <link rel="stylesheet" href="libraries/xZoom-master/xzoom.min.css" />
+
     <!-- my css -->
     <link rel="stylesheet" href="styles/main.css" />
 
@@ -84,10 +87,67 @@
               </div>
 
               <!-- image -->
+              <div class="gallery">
+                <div class="row">
+                  <div class="col-12 img-container">
+                    <!-- Main image, on which xzoom will be applied -->
+                    <img
+                      class="xzoom"
+                      id="main_image"
+                      src="assets/details/big-img/big-img.jpg"
+                      xoriginal="assets/details/big-img/big-img.jpg"
+                    />
+                  </div>
+                </div>
+
+                <!-- Thumbnails -->
+                <div class="row zoom-prev-container mt-2">
+                  <div class="col-sm-12 col-lg-3 zoom-prev left-preview">
+                    <a href="assets/details/big-img/big-img.jpg">
+                      <img
+                        class="xzoom-gallery"
+                        width="180"
+                        src="assets/details/big-img/big-img.jpg"
+                        xpreview="assets/details/big-img/big-img.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div class="col-sm-12 col-lg-3 zoom-prev">
+                    <a href="assets/details/big-img/big-img-2.jpg">
+                      <img
+                        class="xzoom-gallery"
+                        width="180"
+                        src="assets/details/big-img/big-img-2.jpg"
+                        xpreview="assets/details/big-img/big-img-2.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div class="col-sm-12 col-lg-3 zoom-prev">
+                    <a href="assets/details/big-img/big-img-5.jpg">
+                      <img
+                        class="xzoom-gallery"
+                        width="180"
+                        src="assets/details/big-img/big-img-5.jpg"
+                        xpreview="assets/details/big-img/big-img-5.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div class="col-sm-12 col-lg-3 zoom-prev">
+                    <a href="assets/details/big-img/big-img-4.jpg">
+                      <img
+                        class="xzoom-gallery"
+                        width="180"
+                        src="assets/details/big-img/big-img-4.jpg"
+                        xpreview="assets/details/big-img/big-img-4.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
 
               <!-- travel detail explain -->
 
-              <div class="explain-travel mb-5">
+              <div class="explain-travel mt-4 mb-4">
                 <h3 class="explain-heading">Akihabara</h3>
                 <p class="explain-paragraph">
                   Akihabara is a common name for the area around Akihabara
@@ -146,9 +206,65 @@
               </div>
             </div>
           </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4 card-members">
+            <div class="card card-members-are-going">
+              <div class="members-are-going p-4">
+                <h3 class="member-header">Members are going</h3>
+                <img
+                  src="assets/member-profile/members-1.jpg"
+                  class="members-profile mt-3 me-2"
+                  width="40"
+                />
+                <img
+                  src="assets/member-profile/members-2.jpg"
+                  class="members-profile mt-3 me-2"
+                  width="40"
+                />
+                <img
+                  src="assets/member-profile/members-3.jpg"
+                  class="members-profile mt-3 me-2"
+                  width="40"
+                />
+                <img
+                  src="assets/member-profile/members-4.jpg"
+                  class="members-profile mt-3 me-2"
+                  width="40"
+                />
+                <img
+                  src="assets/member-profile/members-5.jpg"
+                  class="members-profile mt-3 me-2 mb-2"
+                  width="40"
+                />
+
+                <hr />
+                <h5 class="trip-info mt-4">Trip Information</h5>
+                <table class="table-trip-info">
+                  <tr>
+                    <th>Date of Departure</th>
+                    <td>22 Dec, 2021</td>
+                  </tr>
+                  <tr>
+                    <th>Duration</th>
+                    <td>5D</td>
+                  </tr>
+                  <tr>
+                    <th>Type</th>
+                    <td>Open Trip</td>
+                  </tr>
+                  <tr>
+                    <th>Price</th>
+                    <td>$800 / person</td>
+                  </tr>
+                </table>
+              </div>
+              <a href="#" class="btn btn-join-now">Join Now</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <br /><br /><br /><br /><br /><br />
 
     <section class="section-footer" id="section-footer">
       <footer class="footer text-center">
@@ -170,6 +286,9 @@
 
     <!-- retina js -->
     <script src="libraries/retina/retina.min.js"></script>
+
+    <!-- xzoom -->
+    <script src="libraries/xZoom-master/xzoom.min.js"></script>
 
     <!-- my script -->
     <script src="scripts/main.js"></script>
