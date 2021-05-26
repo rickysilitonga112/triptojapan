@@ -57,11 +57,21 @@ body {
 #mainNav {
   padding-top: 0;
   min-height: 70px;
+  margin-top: -10px;
 }
 
 #mainNav .container {
   background-color: #fff;
   position: relative;
+}
+
+#mainNav .container .navbar-brand {
+  width: 280px;
+  height: 60px;
+}
+
+#mainNav .container .navbar-brand img {
+  width: 100%;
 }
 
 #mainNav .container .navbar-toggler {
@@ -82,6 +92,10 @@ body {
 #mainNav .container .navbar-nav .nav-link:hover {
   color: #7878ee;
   font-size: 22px;
+}
+
+#mainNav .container .navbar-nav .secondary-btn {
+  margin-bottom: -20px;
 }
 
 header.heading {
@@ -261,58 +275,50 @@ header.heading .p-heading {
 }
 
 @media only screen and (max-width: 980px) {
-  #section-networks .text-heading {
-    margin-top: -20px;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  #section-popular .popular-heading {
-    margin: 35px 0;
-    padding-top: 15px;
-  }
-  #section-testimonial .container .testi-card {
-    margin-top: 20px;
-  }
-  #section-testimonial .container .testi-card .testimonial-card {
-    width: 80%;
-    margin: 10px auto;
-  }
-  #section-testimonial .container .testi-card .get-started-btn {
-    margin-top: 50px;
-  }
-  #section-testimonial .container .testi-card .get-started-btn .need-help-btn {
-    display: none;
-  }
-  #section-testimonial .container .testi-card .get-started-btn .primary-btn {
-    margin-top: -20px;
-  }
-  #section-testimonial .container .testi-card .get-started-btn .btn-sm-need-help {
-    display: block !important;
-  }
-  #section-footer .footer {
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
   body {
+    font-size: 14px;
+    color: #8a7c7c;
+  }
+  .sub-heading-text {
+    font-size: 34px;
+  }
+  .p-heading {
+    color: #8a7c7c;
+    font-weight: 500;
+  }
+  #mainNav .container {
+    margin-top: -14px;
+    padding-top: 20px;
+  }
+  #mainNav .container .navbar-brand {
+    padding-top: 12px;
+    width: 50%;
+  }
+  #mainNav .container .navbar-brand img {
+    width: 100%;
+  }
+  #mainNav .container .navbar-nav .nav-link {
     font-size: 18px;
   }
-  #mainNav {
-    margin-top: -8px;
-  }
-  #mainNav .navbar-brand {
-    width: 60%;
-  }
-  #mainNav .navbar-brand img {
-    width: 80%;
-  }
-  #mainNav .nav-link {
-    font-size: 18px !important;
+  #mainNav .container .navbar-nav .secondary-btn {
+    font-size: 18px;
+    color: #fff;
   }
   .heading {
-    max-height: 300px !important;
-    padding: 120px 0 !important;
+    max-height: 600px;
+    padding-top: 150px;
+  }
+  .heading .big-heading {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  .heading .p-heading {
+    font-size: 14px;
+  }
+  .heading .primary-btn {
+    width: 160px;
+    font-size: 16px;
+    height: 40px;
   }
   #section-networks .text-heading {
     margin-top: -20px;
@@ -323,27 +329,26 @@ header.heading .p-heading {
     margin: 35px 0;
     padding-top: 15px;
   }
+  #section-popular-content .section-popular-travel .card-travel {
+    margin: 10px 0;
+    min-height: 420px;
+  }
   #section-testimonial .container .testi-card {
     margin-top: 20px;
+    margin-top: 0;
   }
   #section-testimonial .container .testi-card .testimonial-card {
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
   }
-  #section-testimonial .container .testi-card .get-started-btn {
-    margin-top: 50px;
+  #section-testimonial .container .get-started-btn {
+    margin-top: 40px;
   }
-  #section-testimonial .container .testi-card .get-started-btn .need-help-btn {
-    display: none;
-  }
-  #section-testimonial .container .testi-card .get-started-btn .primary-btn {
-    margin-top: -20px;
-  }
-  #section-testimonial .container .testi-card .get-started-btn .btn-sm-need-help {
-    display: block !important;
+  #section-testimonial .container .get-started-btn .btn-sm-need-help {
+    font-size: 16px;
   }
   #section-footer .footer {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=main.css.map */

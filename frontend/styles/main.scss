@@ -66,9 +66,18 @@ body {
 #mainNav {
   padding-top: 0;
   min-height: 70px;
+  margin-top: -10px;
   .container {
     background-color: #fff;
     position: relative;
+
+    .navbar-brand {
+      width: 280px;
+      height: 60px;
+      img {
+        width: 100%;
+      }
+    }
 
     .navbar-toggler {
       color: $gray-text;
@@ -87,6 +96,9 @@ body {
           color: #7878ee;
           font-size: 22px;
         }
+      }
+      .secondary-btn {
+        margin-bottom: -20px;
       }
     }
   }
@@ -279,6 +291,63 @@ header.heading {
 
 // media query
 @media only screen and (max-width: 980px) {
+  body {
+    font-size: 14px;
+    color: $gray-text;
+  }
+
+  .sub-heading-text {
+    font-size: 34px;
+  }
+
+  .p-heading {
+    color: $gray-text;
+    font-weight: 500;
+  }
+
+  // navbar
+  #mainNav {
+    .container {
+      margin-top: -14px;
+      padding-top: 20px;
+      .navbar-brand {
+        padding-top: 12px;
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+
+      .navbar-nav {
+        .nav-link {
+          font-size: 18px;
+        }
+        .secondary-btn {
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  // header
+  .heading {
+    max-height: 600px;
+    padding-top: 150px;
+    .big-heading {
+      font-size: 36px;
+      margin-bottom: 0;
+    }
+    .p-heading {
+      font-size: 14px;
+    }
+    .primary-btn {
+      width: 160px;
+      font-size: 16px;
+      height: 40px;
+    }
+  }
+
   // section networks
   #section-networks {
     .text-heading {
@@ -296,76 +365,13 @@ header.heading {
     }
   }
 
-  // section testimonial
-  #section-testimonial {
-    .container {
-      .testi-card {
-        margin-top: 20px;
-
-        .testimonial-card {
-          width: 80%;
-          margin: 10px auto;
-        }
-        .get-started-btn {
-          margin-top: 50px;
-          .need-help-btn {
-            display: none;
-          }
-          .primary-btn {
-            margin-top: -20px;
-          }
-          .btn-sm-need-help {
-            display: block !important;
-          }
-        }
+  // section popular content
+  #section-popular-content {
+    .section-popular-travel {
+      .card-travel {
+        margin: 10px 0;
+        min-height: 420px;
       }
-    }
-  }
-
-  // section-footer
-  #section-footer {
-    .footer {
-      font-size: 18px;
-    }
-  }
-}
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 18px;
-  }
-
-  // main nav
-  #mainNav {
-    margin-top: -8px;
-    .navbar-brand {
-      width: 60%;
-      img {
-        width: 80%;
-      }
-    }
-    .nav-link {
-      font-size: 18px !important;
-    }
-  }
-
-  .heading {
-    max-height: 300px !important;
-    padding: 120px 0 !important;
-  }
-
-  #section-networks {
-    .text-heading {
-      margin-top: -20px;
-      text-align: center;
-      margin-bottom: 40px;
-    }
-  }
-
-  // section popular
-  #section-popular {
-    .popular-heading {
-      margin: 35px 0;
-      padding-top: 15px;
     }
   }
 
@@ -374,22 +380,18 @@ header.heading {
     .container {
       .testi-card {
         margin-top: 20px;
+        margin-top: 0;
 
         .testimonial-card {
-          width: 80%;
+          width: 100%;
           margin: 10px auto;
         }
-        .get-started-btn {
-          margin-top: 50px;
-          .need-help-btn {
-            display: none;
-          }
-          .primary-btn {
-            margin-top: -20px;
-          }
-          .btn-sm-need-help {
-            display: block !important;
-          }
+      }
+      .get-started-btn {
+        margin-top: 40px;
+
+        .btn-sm-need-help {
+          font-size: 16px;
         }
       }
     }
@@ -398,7 +400,78 @@ header.heading {
   // section-footer
   #section-footer {
     .footer {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 }
+
+// smatrphone width
+
+// @media only screen and (max-width: 600px) {
+//   body {
+//     font-size: 18px;
+//   }
+
+//   // main nav
+//   #mainNav {
+//     margin-top: -8px;
+//     .navbar-brand {
+//       width: 60%;
+//       img {
+//         width: 80%;
+//       }
+//     }
+//     .nav-link {
+//       font-size: 18px !important;
+//     }
+//   }
+
+//   .heading {
+//     max-height: 300px !important;
+//     padding: 120px 0 !important;
+//   }
+
+//   #section-networks {
+//     .text-heading {
+//       margin-top: -20px;
+//       text-align: center;
+//       margin-bottom: 40px;
+//     }
+//   }
+
+//   // section popular
+//   #section-popular {
+//     .popular-heading {
+//       margin: 35px 0;
+//       padding-top: 15px;
+//     }
+//   }
+
+//   // section testimonial
+//   #section-testimonial {
+//     .container {
+//       .testi-card {
+//         margin-top: 20px;
+
+//         .testimonial-card {
+//           width: 80%;
+//           margin: 10px auto;
+//         }
+//         margin-top: 50px;
+//         .primary-btn {
+//           margin-top: -20px;
+//         }
+//         .btn-sm-need-help {
+//           display: block !important;
+//         }
+//       }
+//     }
+//   }
+
+//   // section-footer
+//   #section-footer {
+//     .footer {
+//       font-size: 12px;
+//     }
+//   }
+// }
