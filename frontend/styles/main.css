@@ -294,7 +294,7 @@ header.heading .p-heading {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   body {
     font-size: 18px;
   }
