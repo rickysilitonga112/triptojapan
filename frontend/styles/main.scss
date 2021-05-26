@@ -390,8 +390,17 @@ header.heading {
       .get-started-btn {
         margin-top: 40px;
 
+        .need-help-btn {
+          display: none;
+        }
+
         .btn-sm-need-help {
           font-size: 16px;
+        }
+
+        .btn-help-sm {
+          display: block;
+          text-decoration: underline;
         }
       }
     }

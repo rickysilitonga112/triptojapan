@@ -344,8 +344,15 @@ header.heading .p-heading {
   #section-testimonial .container .get-started-btn {
     margin-top: 40px;
   }
+  #section-testimonial .container .get-started-btn .need-help-btn {
+    display: none;
+  }
   #section-testimonial .container .get-started-btn .btn-sm-need-help {
     font-size: 16px;
+  }
+  #section-testimonial .container .get-started-btn .btn-help-sm {
+    display: block;
+    text-decoration: underline;
   }
   #section-footer .footer {
     font-size: 14px;
