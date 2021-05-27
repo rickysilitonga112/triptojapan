@@ -407,6 +407,55 @@ header.heading .p-heading {
   min-height: 460px;
 }
 
+.success-checkout-page .navbar .navbar-logo {
+  min-height: 70px;
+  padding: 16px 0 0;
+  width: 210px;
+}
+
+.success-checkout-page .navbar .navbar-logo .navbar-brand {
+  width: 100%;
+  padding: 0;
+}
+
+.success-checkout-page .navbar .nav-text {
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.success-checkout-page .success-checkout .image-success {
+  margin-top: 180px;
+}
+
+.success-checkout-page .success-checkout .image-success img {
+  width: 220px;
+  height: 220px;
+}
+
+.success-checkout-page .success-checkout .success-text .sucess-header {
+  font-size: 26px;
+  font-weight: 600;
+  color: #4141a5;
+}
+
+.success-checkout-page .success-checkout .success-text p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.success-checkout-page .success-checkout .back-to-home {
+  margin-top: 30px !important;
+}
+
+.success-checkout-page .success-checkout .back-to-home .btn-back {
+  width: 220px;
+  background-color: #fd5056;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 980px) {
   body {
     font-size: 14px;
@@ -520,6 +569,34 @@ header.heading .p-heading {
   }
   .checkout-page .table-member tr {
     line-height: 32px !important;
+  }
+  .success-checkout-page #mainNav {
+    max-height: 70px;
+  }
+  .success-checkout-page #mainNav .container {
+    padding: 0;
+    margin: 0;
+  }
+  .success-checkout-page #mainNav .nav-text {
+    display: none;
+  }
+  .success-checkout-page #success-checkout .image-success {
+    margin-top: 100px;
+  }
+  .success-checkout-page #success-checkout .success-text .sucess-header {
+    font-size: 26px;
+    font-weight: 600;
+    color: #4141a5;
+  }
+  .success-checkout-page #success-checkout .success-text p {
+    font-size: 18px;
+    margin-top: 18px !important;
+  }
+  .success-checkout-page #success-checkout .back-to-home .btn-back {
+    background-color: #fd5056;
+    color: #fff;
+    font-size: 18px;
+    width: 160px;
   }
   #section-footer .footer {
     font-size: 12px;

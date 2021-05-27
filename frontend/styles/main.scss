@@ -432,6 +432,61 @@ header.heading {
 
 // end of checkout page
 
+// success page
+.success-checkout-page {
+  .navbar {
+    .navbar-logo {
+      min-height: 70px;
+      padding: 16px 0 0;
+      width: 210px;
+
+      .navbar-brand {
+        width: 100%;
+        padding: 0;
+      }
+    }
+    .nav-text {
+      margin-top: 25px;
+      margin-left: 20px;
+      // width: 100%;
+      width: 400px;
+    }
+  }
+
+  .success-checkout {
+    .image-success {
+      margin-top: 180px;
+      img {
+        width: 220px;
+        height: 220px;
+      }
+    }
+    .success-text {
+      .sucess-header {
+        font-size: 26px;
+        font-weight: 600;
+        color: $text-colors;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+
+    .back-to-home {
+      margin-top: 30px !important;
+      .btn-back {
+        width: 220px;
+        background-color: $primary-colors;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+// end of succes page
+
 // media query
 @media only screen and (max-width: 980px) {
   body {
@@ -472,6 +527,7 @@ header.heading {
       }
     }
   }
+  // end of navbar
 
   // header
   .heading {
@@ -490,6 +546,7 @@ header.heading {
       height: 40px;
     }
   }
+  // end of header
 
   // section networks
   #section-networks {
@@ -517,6 +574,7 @@ header.heading {
       }
     }
   }
+  // end of section networks
 
   // section testimonial
   #section-testimonial {
@@ -548,6 +606,7 @@ header.heading {
       }
     }
   }
+  // end of testimonial page
 
   // details page
   #section-details {
@@ -572,7 +631,9 @@ header.heading {
       }
     }
   }
+  // end of details page
 
+  // checkout page
   .checkout-page {
     #mainNav {
       max-height: 70px;
@@ -595,6 +656,55 @@ header.heading {
       }
     }
   }
+  // end of checkout page
+
+  // success page
+  .success-checkout-page {
+    #mainNav {
+      max-height: 70px;
+
+      .container {
+        padding: 0;
+        margin: 0;
+      }
+      .nav-text {
+        display: none;
+      }
+    }
+
+    #success-checkout {
+      .image-success {
+        margin-top: 100px;
+        // img {
+        //   width: 220px;
+        //   height: 220px;
+        // }
+      }
+
+      .success-text {
+        .sucess-header {
+          font-size: 26px;
+          font-weight: 600;
+          color: $text-colors;
+        }
+
+        p {
+          font-size: 18px;
+          margin-top: 18px !important;
+        }
+      }
+
+      .back-to-home {
+        .btn-back {
+          background-color: $primary-colors;
+          color: #fff;
+          font-size: 18px;
+          width: 160px;
+        }
+      }
+    }
+  }
+  // end of success page
 
   // section-footer
   #section-footer {
