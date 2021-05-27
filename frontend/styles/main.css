@@ -325,6 +325,88 @@ header.heading .p-heading {
   border-top-left-radius: 0;
 }
 
+.checkout-page .navbar .navbar-logo {
+  min-height: 70px;
+  padding: 16px 0 0;
+  width: 210px;
+}
+
+.checkout-page .navbar .navbar-logo .navbar-brand {
+  width: 100%;
+  padding: 0;
+}
+
+.checkout-page .navbar .nav-text {
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.checkout-page .add-members {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #4141a5;
+}
+
+.checkout-page .inline-form .btn-outline-secondary {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.checkout-page .inline-form .btn-col {
+  width: 140px;
+}
+
+.checkout-page .inline-form .btn-col .btn-checkout {
+  background-color: #fd5056;
+  width: 100%;
+  color: #fff;
+}
+
+.checkout-page .note .note-header {
+  color: #4141a5;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.checkout-page .note p {
+  font-size: 14px;
+}
+
+.checkout-page .card-members .card-members-checkout .member-header {
+  font-size: 26px;
+  font-weight: 600;
+  color: #4141a5;
+  margin-bottom: 20px;
+}
+
+.checkout-page .card-members .card-members-checkout tr {
+  line-height: 40px;
+}
+
+.checkout-page .card-members .payment-instruction .payment-header {
+  font-size: 22px;
+  font-weight: 500;
+  color: #4141a5;
+}
+
+.checkout-page .card-members .payment-instruction .bank {
+  color: #4141a5;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.checkout-page .card-members .btn-join-now {
+  background-color: #fd5056;
+  color: #fff;
+}
+
+.checkout-page .ruang-kosong {
+  min-height: 460px;
+}
+
 @media only screen and (max-width: 980px) {
   body {
     font-size: 14px;
@@ -419,6 +501,25 @@ header.heading .p-heading {
   }
   #section-details .container .card-members .card-members-are-going {
     margin-top: 20px;
+  }
+  .checkout-page #mainNav {
+    max-height: 70px;
+  }
+  .checkout-page #mainNav .container {
+    padding: 0;
+    margin: 0;
+  }
+  .checkout-page #mainNav .nav-text {
+    display: none;
+  }
+  .checkout-page .ruang-kosong {
+    min-height: 50px;
+  }
+  .checkout-page .table-member {
+    border: none;
+  }
+  .checkout-page .table-member tr {
+    line-height: 32px !important;
   }
   #section-footer .footer {
     font-size: 12px;

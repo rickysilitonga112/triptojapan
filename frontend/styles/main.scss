@@ -341,6 +341,97 @@ header.heading {
 
 // end of details page
 
+// checkout page
+
+.checkout-page {
+  .navbar {
+    .navbar-logo {
+      min-height: 70px;
+      padding: 16px 0 0;
+      width: 210px;
+
+      .navbar-brand {
+        width: 100%;
+        padding: 0;
+      }
+    }
+    .nav-text {
+      margin-top: 25px;
+      margin-left: 20px;
+      // width: 100%;
+      width: 400px;
+    }
+  }
+  .add-members {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: 600;
+    color: $text-colors;
+  }
+  .inline-form {
+    .btn-outline-secondary {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .btn-col {
+      width: 140px;
+      .btn-checkout {
+        background-color: $primary-colors;
+        width: 100%;
+        color: #fff;
+      }
+    }
+  }
+
+  .note {
+    .note-header {
+      color: $text-colors;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .card-members {
+    .card-members-checkout {
+      .member-header {
+        font-size: 26px;
+        font-weight: 600;
+        color: $text-colors;
+        margin-bottom: 20px;
+      }
+      tr {
+        line-height: 40px;
+      }
+    }
+
+    .payment-instruction {
+      .payment-header {
+        font-size: 22px;
+        font-weight: 500;
+        color: $text-colors;
+      }
+      .bank {
+        color: $text-colors;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+    .btn-join-now {
+      background-color: $primary-colors;
+      color: #fff;
+    }
+  }
+  .ruang-kosong {
+    min-height: 460px;
+  }
+}
+
+// end of checkout page
+
 // media query
 @media only screen and (max-width: 980px) {
   body {
@@ -478,6 +569,29 @@ header.heading {
         .card-members-are-going {
           margin-top: 20px;
         }
+      }
+    }
+  }
+
+  .checkout-page {
+    #mainNav {
+      max-height: 70px;
+
+      .container {
+        padding: 0;
+        margin: 0;
+      }
+      .nav-text {
+        display: none;
+      }
+    }
+    .ruang-kosong {
+      min-height: 50px;
+    }
+    .table-member {
+      border: none;
+      tr {
+        line-height: 32px !important;
       }
     }
   }
