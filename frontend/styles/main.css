@@ -123,41 +123,46 @@ header.heading .p-heading {
   color: #fff;
 }
 
-#section-networks {
+.bg-linear-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 247, 250, 0)), to(rgba(148, 198, 219, 0.1)));
+  background: linear-gradient(rgba(245, 247, 250, 0), rgba(148, 198, 219, 0.1));
+}
+
+.bg-linear-gradient #section-networks {
   margin-top: 70px;
   margin-bottom: 40px;
 }
 
-#section-networks .container .img-partners {
+.bg-linear-gradient #section-networks .container .img-partners {
   max-width: 100%;
 }
 
-.section-popular {
+.bg-linear-gradient .section-popular {
   margin-top: 40px;
 }
 
-.section-popular .popular-heading {
+.bg-linear-gradient .section-popular .popular-heading {
   margin-bottom: 80px;
 }
 
-#section-popular-content .card-travel {
+.bg-linear-gradient #section-popular-content .card-travel {
   min-height: 380px;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 35px 40px;
 }
 
-#section-popular-content .card-travel .travel-country {
+.bg-linear-gradient #section-popular-content .card-travel .travel-country {
   color: #fff;
   font-size: 18px;
 }
 
-#section-popular-content .card-travel .travel-location {
+.bg-linear-gradient #section-popular-content .card-travel .travel-location {
   color: #fff;
   font-size: 26px;
 }
 
-#section-popular-content .card-travel .travel-btn .btn-primary {
+.bg-linear-gradient #section-popular-content .card-travel .travel-btn .btn-primary {
   background-color: #fd5056;
   color: #fff;
   width: 180px;
@@ -165,50 +170,46 @@ header.heading .p-heading {
   border: none;
 }
 
-#section-popular-content .card-travel .travel-btn .btn-primary:hover {
+.bg-linear-gradient #section-popular-content .card-travel .travel-btn .btn-primary:hover {
   background-color: #df6f73;
   color: #fff;
 }
 
-#section-testimonial {
-  margin: 80px 0;
+.bg-linear-gradient #section-testimonial {
+  padding: 80px 0 100px;
 }
 
-#section-testimonial .testimonial-cards .testimonial-card {
+.bg-linear-gradient #section-testimonial .testimonial-cards .testimonial-card {
   min-height: 532px;
   padding: 50px 45px 35px;
 }
 
-#section-testimonial .testimonial-cards .testimonial-card .card-content .testimonial-name {
+.bg-linear-gradient #section-testimonial .testimonial-cards .testimonial-card .card-content .testimonial-name {
   font-size: 22px;
   font-weight: 600;
   color: #4141a5;
   margin: 20px 0;
 }
 
-#section-testimonial .testimonial-cards .testimonial-card .card-content .trip-to-tittle {
+.bg-linear-gradient #section-testimonial .testimonial-cards .testimonial-card .card-content .trip-to-tittle {
   margin-top: 85px;
 }
 
-#section-testimonial .testi-card {
+.bg-linear-gradient #section-testimonial .testi-card {
   margin-top: 38px;
 }
 
-#section-testimonial .get-started-btn {
+.bg-linear-gradient #section-testimonial .get-started-btn {
   margin-top: 70px;
 }
 
-#section-testimonial .get-started-btn .need-help-btn {
+.bg-linear-gradient #section-testimonial .get-started-btn .need-help-btn {
   background-color: #e6e2de;
 }
 
-#section-testimonial .get-started-btn .need-help-btn:hover {
+.bg-linear-gradient #section-testimonial .get-started-btn .need-help-btn:hover {
   color: black;
   background-color: #fff;
-}
-
-#section-footer {
-  margin-top: 20px;
 }
 
 #section-footer footer {

@@ -129,92 +129,95 @@ header.heading {
   }
 }
 
-// section networks
-#section-networks {
-  margin-top: 70px;
-  margin-bottom: 40px;
+.bg-linear-gradient {
+  background: linear-gradient(rgba(245, 247, 250, 0), rgba(148, 198, 219, 0.1));
+  // section networks
+  #section-networks {
+    margin-top: 70px;
+    margin-bottom: 40px;
 
-  .container {
-    .img-partners {
-      max-width: 100%;
+    .container {
+      .img-partners {
+        max-width: 100%;
+      }
     }
   }
-}
-.section-popular {
-  margin-top: 40px;
-  .popular-heading {
-    margin-bottom: 80px;
+  .section-popular {
+    margin-top: 40px;
+    .popular-heading {
+      margin-bottom: 80px;
+    }
   }
-}
-// section-popular-cards
-#section-popular-content {
-  .card-travel {
-    min-height: 380px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 35px 40px;
+  // section-popular-cards
+  #section-popular-content {
+    .card-travel {
+      min-height: 380px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 35px 40px;
 
-    .travel-country {
-      color: #fff;
-      font-size: 18px;
-    }
-    .travel-location {
-      color: #fff;
-      font-size: 26px;
-    }
-    .travel-btn {
-      .btn-primary {
-        background-color: $primary-color;
+      .travel-country {
         color: #fff;
-        width: 180px;
-        font-size: 22px;
-        border: none;
+        font-size: 18px;
+      }
+      .travel-location {
+        color: #fff;
+        font-size: 26px;
+      }
+      .travel-btn {
+        .btn-primary {
+          background-color: $primary-color;
+          color: #fff;
+          width: 180px;
+          font-size: 22px;
+          border: none;
+
+          &:hover {
+            background-color: #df6f73;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  // section testimonial
+  #section-testimonial {
+    padding: 80px 0 100px;
+
+    .testimonial-cards {
+      .testimonial-card {
+        min-height: 532px;
+        padding: 50px 45px 35px;
+
+        .card-content {
+          .testimonial-name {
+            font-size: 22px;
+            font-weight: 600;
+            color: $text-color;
+            margin: 20px 0;
+          }
+          .trip-to-tittle {
+            margin-top: 85px;
+          }
+        }
+      }
+    }
+
+    .testi-card {
+      margin-top: 38px;
+    }
+
+    .get-started-btn {
+      margin-top: 70px;
+
+      .need-help-btn {
+        background-color: #e6e2de;
 
         &:hover {
-          background-color: #df6f73;
-          color: #fff;
+          color: black;
+          background-color: #fff;
         }
-      }
-    }
-  }
-}
-
-// section testimonial
-#section-testimonial {
-  margin: 80px 0;
-
-  .testimonial-cards {
-    .testimonial-card {
-      min-height: 532px;
-      padding: 50px 45px 35px;
-
-      .card-content {
-        .testimonial-name {
-          font-size: 22px;
-          font-weight: 600;
-          color: $text-color;
-          margin: 20px 0;
-        }
-        .trip-to-tittle {
-          margin-top: 85px;
-        }
-      }
-    }
-  }
-
-  .testi-card {
-    margin-top: 38px;
-  }
-
-  .get-started-btn {
-    margin-top: 70px;
-
-    .need-help-btn {
-      background-color: #e6e2de;
-
-      &:hover {
-        color: black;
-        background-color: #fff;
       }
     }
   }
@@ -222,7 +225,6 @@ header.heading {
 
 // footer section
 #section-footer {
-  margin-top: 20px;
   footer {
     border-top: 1px solid #c5bebe;
     padding: 20px 0 0;
